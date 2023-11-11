@@ -138,7 +138,7 @@ width: 100%;
   padding-left: 1em;
   position: sticky;
   top: 0;
-  width: 10em;
+  width: 9em;
 }
 
 .picture-container{
@@ -243,11 +243,35 @@ h4{
 
 }
 
-.formation{
+.formationContainer{
   grid-area: formation;
  
 }
 
+.formationContainer h4{
+  margin-bottom: revert;
+}
+.formation{
+  display: flex;
+  gap: 6em;
+
+}
+ .course-title {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: initial;
+  display: block;
+  margin-bottom: -4%;
+ }
+ .intitule{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+ }
+ .school{
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: lighter;
+ }
 .rightComputer{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
