@@ -157,8 +157,7 @@ h4{
   grid-area: description;
   display: flex;
   flex-direction: column;
-  width: 22em;
-  margin-left: 2em;
+ 
 }
 
 
@@ -243,7 +242,7 @@ h4{
 
 }
 
-.formationContainer{
+.formationExpContainer{
   grid-area: formation;
  
 }
