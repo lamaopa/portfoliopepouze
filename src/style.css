@@ -253,15 +253,20 @@ h4{
 }
 .formation{
   display: flex;
-  gap: 6em;
+  flex-direction: column;
 
+
+}
+
+.formation h5{
+  margin-bottom: 1em;
 }
  .course-title {
  
   font-family: 'Montserrat', sans-serif;
   font-size: initial;
   display: block;
-  margin-bottom: -4%;
+  margin-bottom: -2%;
  }
  .intitule{
   font-family: 'Montserrat', sans-serif;
