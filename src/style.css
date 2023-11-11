@@ -142,8 +142,8 @@ width: 100%;
 }
 
 .picture-container{
-  display: flex;
-  flex-direction: column;
+  grid-area: picture-container;
+  
 
 }
 
@@ -154,6 +154,7 @@ h4{
 }
 
 .description{
+  grid-area: description;
   display: flex;
   flex-direction: column;
   width: 22em;
@@ -243,9 +244,20 @@ h4{
 }
 
 .formation{
-  display: flex;
+  grid-area: formation;
+ 
 }
 
+.rightComputer{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "picture-container description ."
+    "picture-container description ."
+    "formation formation ."; 
+}
 
 
 
