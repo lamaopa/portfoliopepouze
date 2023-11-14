@@ -305,11 +305,22 @@ h4{
 }
 
 .onglet-experience{
-  font-family: 'Montserrat', sans-serif;
+
   display: flex;
-  font-weight: lighter;
+ 
   margin-left: 8em;
-  gap: 5em;
+  gap: 3em;
+}
+
+.onglet-experience .ongletprojet{
+  font-weight: bold;
+  padding: 1em;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 
