@@ -138,12 +138,12 @@ width: 100%;
   padding-left: 1em;
   position: sticky;
   top: 0;
-  width: 10em;
+  width: 9em;
 }
 
 .picture-container{
-  display: flex;
-  flex-direction: column;
+  grid-area: picture-container;
+  
 
 }
 
@@ -154,10 +154,10 @@ h4{
 }
 
 .description{
+  grid-area: description;
   display: flex;
   flex-direction: column;
-  width: 22em;
-  margin-left: 2em;
+ 
 }
 
 
@@ -242,8 +242,86 @@ h4{
 
 }
 
+.logicielCOntinerComputer2{
+  margin-top: 1em;
+}
+
+.formationExpContainer{
+  grid-area: formation;
+ display: flex;
+}
+
+.formationContainer h4{
+  margin-bottom: revert;
+}
+.formation{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 9em;
+  border-bottom-style: dotted;
+  border-width: 2px;
 
 
+}
+
+.formation h5{
+  margin-bottom: 1em;
+}
+ .course-title {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: initial;
+  display: block;
+  margin-bottom: -2%;
+ }
+ .intitule{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+ }
+ .school{
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: lighter;
+ }
+.rightComputer{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "picture-container description ."
+    "picture-container description ."
+    "formation formation ."
+    "experience experience ."; 
+}
+
+.experience{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter; 
+  grid-area: experience;
+  display: flex;
+  align-items: baseline;
+}
+
+.onglet-experience{
+
+  display: flex;
+ 
+  margin-left: 8em;
+  gap: 3em;
+}
+
+.onglet-experience .ongletprojet{
+  font-weight: bold;
+  padding: 1em;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
 
 
 
