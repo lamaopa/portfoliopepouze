@@ -242,6 +242,10 @@ h4{
 
 }
 
+.logicielCOntinerComputer2{
+  margin-top: 1em;
+}
+
 .formationExpContainer{
   grid-area: formation;
  display: flex;
@@ -255,6 +259,8 @@ h4{
   flex-direction: column;
   justify-content: end;
   margin-left: 9em;
+  border-bottom-style: dotted;
+  border-width: 2px;
 
 
 }
@@ -286,10 +292,25 @@ h4{
   grid-template-areas: 
     "picture-container description ."
     "picture-container description ."
-    "formation formation ."; 
+    "formation formation ."
+    "experience experience ."; 
 }
 
+.experience{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter; 
+  grid-area: experience;
+  display: flex;
+  align-items: baseline;
+}
 
+.onglet-experience{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  font-weight: lighter;
+  margin-left: 8em;
+  gap: 5em;
+}
 
 
 
