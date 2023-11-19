@@ -799,6 +799,18 @@ text-align: revert;
 
 }
 
+.zHeroDescription2{
+  color: #FFF;
+text-align: right;
+font-family: 'Inter', sans-serif;
+font-size: 5.5rem;
+font-style: normal;
+font-weight: 400;
+text-align: revert;
+
+}
+
+
 .zHeroDescriptionContainer{
   display: flex;
   flex-direction: column;
