@@ -775,17 +775,22 @@ width: 17px;
   justify-content: center;
   align-items: center;
 }
+
+.zhContainer{
+  display: flex;
+}
 .zHeroDescription1{
   text-align: revert;
   color: #FFF;
   text-align: right;
   font-family: 'Inter', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   line-height: 138.023%;
   width: 25em;
   margin-right: 2em;
+  padding-top: 1%;
 }
 .zHeroDescription{
   color: #FFF;
@@ -804,9 +809,19 @@ text-align: revert;
 text-align: right;
 font-family: 'Inter', sans-serif;
 font-size: 5.5rem;
-font-style: normal;
-font-weight: 400;
+font-weight: bolder;
 text-align: revert;
+
+}
+
+.zHeroDescription3{
+  color: #FFF;
+text-align: right;
+font-family: 'Inter', sans-serif;
+font-size: 99%
+font-style: normal;
+text-align: revert;
+font-style: italic;
 
 }
 
