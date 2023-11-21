@@ -767,6 +767,31 @@ width: 17px;
 
 
 /* PAGE ZOLD*/
+
+@media screen and (max-width: 480px) {
+  .zhContainer {
+      flex-direction: column-reverse;
+      margin: 3em;
+      .zhContainer {
+        gap: 1em;
+    }
+
+    .zHeroDescription1 {
+        font-size: 1em;
+        text-align: inherit;
+        width: fit-content;
+    }
+
+    .zHeroDescription2 {
+        font-size: 3.5em;
+    }
+
+    .zHeroDescription3 {
+        font-size: 0.8em;
+    }
+}
+  }
+
 .zoldHero{
   background-color: #000000;
   width: 100%;
@@ -834,6 +859,8 @@ font-style: italic;
 .zoldHeader{
   display: flex;
   flex-wrap: wrap;
+  padding: 2em;
+  gap :11em;
   
 }
 .zoldContainer{
@@ -850,7 +877,8 @@ font-style: italic;
  .contextDescription{
   font-weight: 390;
   font-family: 'Montserrat', sans-serif;
-  font-size: x-large;
+  font-size: large;
+  text-align: justify;
  }
 .Zoldtitle{
   font-family: 'Montserrat', sans-serif;
