@@ -768,7 +768,7 @@ width: 17px;
 
 /* PAGE ZOLD*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 790px) {
   .zhContainer {
       flex-direction: column-reverse;
       margin: 3em;
@@ -795,11 +795,29 @@ width: 17px;
 
     .zoldHeader{
       justify-content: center;
+      
     }
+   
+    .objectif {
+      border-right-style: none; 
+      border-width: 0; 
+      padding-right: 0; 
     }
+    .objectif {
+      border-right-style: dotted;
+      border-width: 2px;
+      padding-left: 2em;
+    }
+
+   
+    
+  }
+  }
+
+    
   
     
-}
+
   
 
 .zoldHero{
@@ -807,6 +825,7 @@ width: 17px;
   width: 100%;
   height: 33em;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -874,8 +893,15 @@ font-style: italic;
   flex-wrap: wrap;
   padding: 4em;
   gap: 5em;
-  
-  
+  border-bottom: dotted;
+  border-width: 2px;
+   
+}
+
+@media screen and (max-width: 1477px) {
+  .zoldHeader{
+    justify-content: center;
+  }
 }
 .zoldContainer{
   display: flex;
@@ -903,4 +929,86 @@ font-style: italic;
 }
 .zoldImage{
   height: 20em;
+}
+
+.HeaderZ{
+  display: flex;
+  flex-direction: column;
+}
+
+.objectifZ{
+  display: flex;
+  width: 100%;
+  height: 14.375rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  flex-wrap: wrap;
+  margin-top: 5em;
+  justify-content: space-evenly;
+}
+
+
+.objectif{
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: initial;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  border-right-style: dotted;
+  border-width: 2px;
+  padding-right: 3em;
+}
+
+.objectifZ .objectif:nth-child(3) {
+  border-right: none; 
+}
+.objDescription{
+  width: 16rem;
+}
+
+.numero{
+  font-size: xxx-large;
+}
+
+.zoldHeader h4:first-child  {
+  margin-left: 2em;
+}
+
+.objTitle{
+  margin-left: 3em;
+  
+}
+.objectif {
+  border-right-style: none;
+  border-width: 0;
+  padding-right: 0;
+}
+
+.containerZold{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 6em;
+ 
+}
+
+.ongletZold{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 77%;
+  color:white;
+}
+
+@media screen and (max-width: 790px) {
+  .containerZold{
+    margin: 1em;
+  }
 }
