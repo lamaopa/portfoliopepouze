@@ -820,7 +820,8 @@ width: 17px;
 
   
 
-.zoldHero{
+.zoldHero,
+.FCSHero{
   background-color: #000000;
   width: 100%;
   height: 33em;
@@ -940,7 +941,7 @@ font-style: italic;
 .objectifZ{
   display: flex;
   width: 100%;
-  height: 14.375rem;
+  height: 11.375rem;
   justify-content: center;
   align-items: flex-start;
   gap: 5rem;
@@ -961,6 +962,7 @@ font-style: italic;
   border-width: 2px;
   padding-right: 3em;
 }
+
 
 .objectifZ .objectif:nth-child(3) {
   border-right: none; 
@@ -1035,4 +1037,60 @@ font-style: italic;
   .FCSHeroDescription2{
     font-size: 3.5em;
   }
+}
+
+.FCS-container-logo{
+  display: flex;
+  flex-direction: column;
+  border-bottom: dotted;
+  border-width: 2px;
+  padding-bottom: 4em;
+}
+
+.FCS-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.image-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.rightContainerLOGO img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rightContainerLOGO {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.rightContainerLOGO img:nth-child(2) {
+  max-width: 22rem;
+  height: fit-content;
+}
+.FCS-site-container{
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+}
+.siteDescription{
+  font-family: 'Montserrat', sans-serif;
+  font-size: initial;
+  width: 21rem;
+  text-align: justify;
+
+}
+.FCS-site-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
 }
