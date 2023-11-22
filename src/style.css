@@ -861,7 +861,8 @@ width: fit-content;
 
 }
 
-.zHeroDescription2{
+.zHeroDescription2,
+ .FCSHeroDescription2 {
   color: #FFF;
 text-align: right;
 font-family: 'Inter', sans-serif;
@@ -1010,5 +1011,28 @@ font-style: italic;
 @media screen and (max-width: 790px) {
   .containerZold{
     margin: 1em;
+  }
+}
+.wireframe{
+  display: flex;
+  flex-direction: column;
+}
+.wireframe-container{
+  display: flex;
+
+}
+
+
+/* Section A FCS */
+
+.FCSHeroDescription2{
+  line-height: 0.9;
+  margin-bottom: 2rem;
+  font-size: 4.5em;
+}
+
+@media screen and (max-width: 790px){
+  .FCSHeroDescription2{
+    font-size: 3.5em;
   }
 }
