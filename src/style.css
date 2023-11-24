@@ -827,9 +827,33 @@ width: 17px;
   height: 33em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
+
+
+
+
+
+
+.my-icon {
+  align-self: flex-start;
+}
+
+.my-icon img {
+  align-self: flex-start;
+    width: 60%; 
+    max-width: 50px; 
+    height: auto; 
+    margin-left: 2em;
+}
+
+
+
+
+ 
+
 
 .zhContainer{
   display: flex;
