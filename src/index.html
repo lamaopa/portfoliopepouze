@@ -95,6 +95,7 @@
                             <img src="./asset/image/figma-logo-0.png" class="logosoftware">
                             <img src="./asset/image/VScode.jpg" class="logosoftware">
                         </div>
+                        <button id="en-savoir-plus-button">En savoir plus</button>
                     </div>
                     <div class="formationExpContainer">
                         <h4>Formation</h4>
@@ -158,7 +159,28 @@
        
       
 
-        
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var formationExpContainer = document.querySelector(".formationExpContainer");
+                var experienceSection = document.getElementById("experience-section");
+                var enSavoirPlusButton = document.getElementById("en-savoir-plus-button");
+    
+                // Initially hide the elements
+                formationExpContainer.style.display = "none";
+                experienceSection.style.display = "none";
+    
+                // Toggle visibility when the button is clicked
+                enSavoirPlusButton.addEventListener("click", function () {
+                    if (formationExpContainer.style.display === "none") {
+                        formationExpContainer.style.display = "block";
+                        experienceSection.style.display = "block";
+                    } else {
+                        formationExpContainer.style.display = "none";
+                        experienceSection.style.display = "none";
+                    }
+                });
+            });
+        </script>
 
   
 
