@@ -249,6 +249,8 @@ h4{
 .formationExpContainer{
   grid-area: formation;
  display: flex;
+ align-items: baseline;
+
 }
 
 .formationContainer h4{
@@ -841,7 +843,7 @@ width: 17px;
   align-self: flex-start;
 }
 
-.my-icon img {
+.img-icon {
   align-self: flex-start;
     width: 60%; 
     max-width: 50px; 
