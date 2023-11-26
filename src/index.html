@@ -95,6 +95,7 @@
                             <img src="./asset/image/figma-logo-0.png" class="logosoftware">
                             <img src="./asset/image/VScode.jpg" class="logosoftware">
                         </div>
+                        <button id="en-savoir-plus-button">En savoir plus</button>
                     </div>
                     <div class="formationExpContainer">
                         <h4>Formation</h4>
@@ -105,7 +106,7 @@
                         </div>
     
                     </div>
-                    <div class="experience">
+                    <div class="experience" id="experience-section">
                         <h4>Experience</h4>
                         <div class="onglet-experience"> 
                             <h5 class="ongletprojet">UI designer 
@@ -128,7 +129,7 @@
         <div class="section2">
             <h1 class="projets"> PRO <br>JETS</h1>
             <h1 class="projet-computer">PROJET</h1>
-            <div class="projectcontainer">
+            <div id="projectcontainer" class="projectcontainer">
                 <div class="FCS">
                     <img src="./asset/image/mockupcarte.svg" alt="FCS Picture" class="project-image">
                     <h2 class="name">FCS</h2>
@@ -137,10 +138,10 @@
                         <p class="ongletprojet"> Site web</p>
                         <p class="ongletprojet"> Photographie</p>
                     </div>
-                    <div class="more">
-                        <p class="ensavoirplus">EN SAVOIR PLUS </p>
+                    <a href="./FCS.html" class="more">
+                        <p class="ensavoirplus">EN SAVOIR PLUS</p>
                         <img src="./asset/image/plus.svg" class="plusicone">
-                    </div>
+                        </a>
                 </div>
                 <div class="Zold">
                     <img src="./asset/image/zold.png" alt="Zold Picture" class="project-image">
@@ -148,17 +149,29 @@
                     <div class="Zoldetiquettes">
                         <p class="ongletprojet"> Application iOS</p>
                     </div>
-                    <div class="more">
+                    <a href="./zold.html" class="more">
                         <p class="ensavoirplus">EN SAVOIR PLUS</p>
                         <img src="./asset/image/plus.svg" class="plusicone">
-                    </div>
+                        </a>
                 </div>
             </div>
         </div>
        
       
 
-        
+        <script>
+           $(document).ready(function () {
+            $(".wireframe-container").slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000, // Adjust the autoplay speed as needed
+                prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+                nextArrow: '<button type="button" class="slick-next">Next</button>',
+            });
+        });
+        </script>
 
   
 
