@@ -1041,14 +1041,24 @@ font-style: italic;
     margin: 1em;
   }
 }
-.wireframe{
+.wireframe {
   display: flex;
   flex-direction: column;
 }
-.wireframe-container{
-  display: flex;
 
+.wireframe-container {
+  display: flex;
+  height: 5em; /* Ajustez la taille selon vos besoins */
 }
+
+.slick-container {
+  max-width: 100%; /* Ajout de cette règle pour ajuster la taille du conteneur slick */
+}
+.wireframe-img {
+  height: 0.5em; /* Ajustez la taille selon vos besoins */
+  margin-right: 10px; /* Ajout de marge entre les images, ajustez selon vos préférences */
+}
+
 
 
 /* Section A FCS */
@@ -1120,3 +1130,4 @@ font-style: italic;
   display: block;
   margin: 0 auto; 
 }
+

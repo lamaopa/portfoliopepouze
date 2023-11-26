@@ -160,26 +160,17 @@
       
 
         <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                var formationExpContainer = document.querySelector(".formationExpContainer");
-                var experienceSection = document.getElementById("experience-section");
-                var enSavoirPlusButton = document.getElementById("en-savoir-plus-button");
-    
-                // Initially hide the elements
-                formationExpContainer.style.display = "none";
-                experienceSection.style.display = "none";
-    
-                // Toggle visibility when the button is clicked
-                enSavoirPlusButton.addEventListener("click", function () {
-                    if (formationExpContainer.style.display === "none") {
-                        formationExpContainer.style.display = "block";
-                        experienceSection.style.display = "block";
-                    } else {
-                        formationExpContainer.style.display = "none";
-                        experienceSection.style.display = "none";
-                    }
-                });
+           $(document).ready(function () {
+            $(".wireframe-container").slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000, // Adjust the autoplay speed as needed
+                prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+                nextArrow: '<button type="button" class="slick-next">Next</button>',
             });
+        });
         </script>
 
   
