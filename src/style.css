@@ -931,6 +931,9 @@ font-style: italic;
   .zoldHeader{
     justify-content: center;
   }
+  .objectifZ{
+    margin-bottom: 4em;
+  }
 }
 .zoldContainer{
   display: flex;
