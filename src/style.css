@@ -1049,15 +1049,14 @@ font-style: italic;
 
 .wireframe-container {
   display: flex;
-  height: 5em; /* Ajustez la taille selon vos besoins */
+  height: 5em; 
+  gap: 3em;
+  justify-content: center;
+  margin-top: 4em;
 }
 
-.slick-container {
-  max-width: 100%; /* Ajout de cette règle pour ajuster la taille du conteneur slick */
-}
 .wireframe-img {
-  height: 0.5em; /* Ajustez la taille selon vos besoins */
-  margin-right: 10px; /* Ajout de marge entre les images, ajustez selon vos préférences */
+  height: 25em; 
 }
 
 
