@@ -141,6 +141,12 @@ width: 100%;
   width: 9em;
 }
 
+@media screen and (max-width: 1100px) {
+  .headingContent h3{
+    width: 6em;
+  }
+}
+
 .picture-container{
   grid-area: picture-container;
   
@@ -159,6 +165,9 @@ h4{
   flex-direction: column;
  
 }
+
+
+
 
 
 .presentation-container {
@@ -604,7 +613,7 @@ width: 17px;
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 930px) {
 
   .header {
    
@@ -629,7 +638,7 @@ width: 17px;
     width: auto;
   
     display: flex;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
     color: black;
     margin-top: 20px;
