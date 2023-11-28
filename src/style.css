@@ -931,6 +931,9 @@ font-style: italic;
   .zoldHeader{
     justify-content: center;
   }
+  .objectifZ{
+    margin-bottom: 4em;
+  }
 }
 .zoldContainer{
   display: flex;
@@ -963,6 +966,7 @@ font-style: italic;
 .HeaderZ{
   display: flex;
   flex-direction: column;
+  
 }
 
 .objectifZ{
@@ -1049,15 +1053,41 @@ font-style: italic;
 
 .wireframe-container {
   display: flex;
-  height: 5em; 
   gap: 3em;
   justify-content: center;
   margin-top: 4em;
 }
 
 .wireframe-img {
-  height: 25em; 
+  height: 25em;
 }
+
+@media screen and (max-width: 1080px) {
+  .wireframe-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 2em;
+    overflow-x: auto;
+    padding: 0 1em; /* Add padding to the left and right */
+  }
+  .HeaderZ{
+    margin-bottom: 13em;
+  }
+}
+
+.video {
+  margin-top: 2em;
+  width: 100%; /* La vidéo occupe 100% de la largeur du conteneur parent */
+  max-width: 280px; /* Ajoutez une largeur maximale pour éviter que la vidéo ne devienne trop petite */
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 
 
@@ -1116,14 +1146,16 @@ font-style: italic;
   display: flex;
   flex-direction: column;
   align-items: first baseline;
+  
 }
-.siteDescription{
+.siteDescription {
   font-family: 'Montserrat', sans-serif;
-  font-size: initial;
-  width: 21rem;
+  font-size: 16px; 
+  width: 60%; 
   text-align: justify;
-
+  margin: 0 0 2em 3em;
 }
+
 .FCS-site-container img {
   max-width: 100%;
   height: auto;
