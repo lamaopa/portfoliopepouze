@@ -603,6 +603,86 @@ width: 17px;
     margin-left: -6px;
   }
 }
+@media screen and (max-width: 660px) {
+  .header {
+   
+    height: 50vh;
+  }
+
+  .searchName {
+    font-size: 1.5em;
+  }
+  .search-bar {
+    max-width: 314px;
+    padding: 0;
+  }
+
+.sectioncomputer{
+  display: none;
+}
+  .sectionmobile{
+  height: 63vh;
+  margin-left: 0;
+
+    width: auto;
+  
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: black;
+    margin-top: 20px;
+    
+  
+   
+
+}
+
+.apropos-mobil {
+  font-family: 'Jost', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  display: block;
+  margin: 10px;
+  line-height: 25px;
+  width: 100%;
+  margin-bottom: 30px;
+  
+ 
+}
+
+.apropos-computer{
+  display: none;
+}
+.p1 {
+  font-size: smaller;
+  width: 150px;
+  text-align: left;
+}
+
+.photo {
+  height: 25em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  margin-left: 15px;
+}
+
+.blabla {
+  margin-top: 110px;
+  margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 372px;
+    width: 100%;
+    overflow: scroll;
+    gap: 2em;
+    background-color: rgb(217 217 217 / 18%);
+    border-radius: 11px;
+    padding: 1em;
+}
+} 
+
+
 
 @media screen and (max-width: 660px) {
 
@@ -682,84 +762,7 @@ width: 17px;
     border-radius: 11px;
     padding: 1em;
 }
-.projectcontainer {
-  width: 120%;
-  background: black;
-  height: 57vh;
-  white-space: nowrap;    
-  overflow-x: scroll;
-  justify-content: center;
-  display: block;
-  gap: 56px;
-  padding-left: 10px;
 }
-
-  .projets{
-    display: block;
-    font-family: 'Jost', sans-serif;
-    font-size: 30px;
-    margin-left: 20px;
-    text-align: left;
-    display: block;
-   
-    color: white;
-    text-underline-offset: 8px;
-    line-height: 25px;
-    background-color: black;
-    width: 100%;
-    padding: 10px;
-    padding-top: 30px;
-    padding-bottom: 40px;
-  }
-
-  .projet-computer{
-    display: none;
-  }
-
-.FCS,
-.Zold {
- 
-  display: inline-block;
-  width: 265px;
-  margin: 0 15px;
-  height: 438px;
-  border-radius: 20px;
-  background-color: white;
-  text-align: center;
-}
-
-
-
-.project-image {
-  width: 89%;
-  height: 17rem;
-  object-fit: cover;
-  margin-top: 10px;
-  border-radius: 30px 30px 0 0 ;
-}
-
-.ongletprojet {
-  display: inline;
-  align-content: center;
-  border: 1px solid black;
-  padding: 7px;
-  border-radius: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 11px;
-  color: black;
-  margin: 0 auto;
-}
-
-
-.name{
-  margin: 10px;
-  padding-bottom: 5px;
-  font-size: 22px;
-}
-
-}
-
-
 
 
 
@@ -817,6 +820,7 @@ width: 17px;
   }
   }
 
+ 
     
   
     
