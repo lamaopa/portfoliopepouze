@@ -69,7 +69,7 @@
                 </div>
              </div>
              
-             <button id="enSavoirPlusButton">Votre Bouton</button>
+             
              
              <div class="formationExpContainerMobile">
                 <h4>Formation</h4>
@@ -118,28 +118,8 @@
                             <img src="./asset/image/figma-logo-0.png" class="logosoftware">
                             <img src="./asset/image/VScode.jpg" class="logosoftware">
                         </div>
+                        <button id="en-savoir-plus-button">En savoir plus</button>
                     </div>
-                    <button id="enSavoirPlusButton">Votre Bouton</button>
-                    <script>
-                        document.addEventListener("DOMContentLoaded", function () {
-                            let formationExpContainerMobile = document.querySelector(".formationExpContainerMobile");
-                            let experienceSectionMobile = document.getElementById("experience-section-mobile");
-                            let enSavoirPlusButton = document.getElementById("enSavoirPlusButton");
-                    
-                            formationExpContainerMobile.style.display = "none";
-                            experienceSectionMobile.style.display = "none";
-                    
-                            enSavoirPlusButton.addEventListener("click", function () {
-                                if (formationExpContainerMobile.style.display === "none") {
-                                    formationExpContainerMobile.style.display = "block";
-                                    experienceSectionMobile.style.display = "block";
-                                } else {
-                                    formationExpContainerMobile.style.display = "none";
-                                    experienceSectionMobile.style.display = "none";
-                                }
-                            });
-                        });
-                    </script>
                     <div class="formationExpContainer">
                         <h4>Formation</h4>
                         <div class="formation">
