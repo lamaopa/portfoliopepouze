@@ -447,7 +447,7 @@ display: none;
 }
 
 .apropos-mobil {
-display: none;
+display: none
   
  
 }
@@ -682,12 +682,6 @@ width: 17px;
     border-radius: 11px;
     padding: 1em;
 }
-
-
-
-
-
-
 .projectcontainer {
   width: 120%;
   background: black;
@@ -765,8 +759,14 @@ width: 17px;
 
 }
 
-@media screen and (max-width: 660px) {
-}
+
+
+
+
+
+
+
+
 
 
 /* PAGE ZOLD*/
