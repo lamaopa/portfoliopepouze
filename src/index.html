@@ -119,8 +119,35 @@
                  
               
                 </div>
-                   
+            </div>
         </div>
+                   
+       
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                let formationExpContainer = document.querySelector(".formationExpContainer");
+                let experienceSection = document.getElementById("experience-section");
+                let enSavoirPlusButton = document.getElementById("en-savoir-plus-button");
+    
+               
+                formationExpContainer.style.display = "none";
+                experienceSection.style.display = "none";
+    
+             
+                enSavoirPlusButton.addEventListener("click", function () {
+                    if (formationExpContainer.style.display === "none") {
+                        formationExpContainer.style.display = "block";
+                        experienceSection.style.display = "block";
+                    } else {
+                        formationExpContainer.style.display = "none";
+                        experienceSection.style.display = "none";
+                    }
+                });
+            });
+        </script>
                 
         
             
@@ -159,30 +186,7 @@
        
       
 
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                let formationExpContainer = document.querySelector(".formationExpContainer");
-                let experienceSection = document.getElementById("experience-section");
-                let enSavoirPlusButton = document.getElementById("en-savoir-plus-button");
-    
-               
-                formationExpContainer.style.display = "none";
-                experienceSection.style.display = "none";
-    
-             
-                enSavoirPlusButton.addEventListener("click", function () {
-                    if (formationExpContainer.style.display === "none") {
-                        formationExpContainer.style.display = "block";
-                        experienceSection.style.display = "block";
-                    } else {
-                        formationExpContainer.style.display = "none";
-                        experienceSection.style.display = "none";
-                    }
-                });
-            });
-        </script>
+       
 
   
 
