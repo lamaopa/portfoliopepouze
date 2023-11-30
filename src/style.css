@@ -287,6 +287,12 @@ h4{
   display: block;
   margin-bottom: -2%;
  }
+
+ @media screen and (max-width: 790px) {
+  .course-title{
+    font-size: 1em;
+  }
+ }
  .intitule{
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
@@ -635,7 +641,7 @@ width: 17px;
   display: none;
 }
   .sectionmobile{
-  height: 63vh;
+  
   margin-left: 0;
 
     width: auto;
