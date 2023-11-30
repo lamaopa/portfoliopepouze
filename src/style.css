@@ -249,14 +249,16 @@ h4{
 
   border-bottom-style: dotted;
   border-width: 2px;
+  
 
 }
 
 .logicielCOntinerComputer2{
   margin-top: 1em;
+  margin-bottom: 2em;
 }
 
-.formationExpContainer{
+.formationExpContainer, .videoformationExpContainer-mobile{
   grid-area: formation;
  display: flex;
  align-items: baseline;
@@ -266,7 +268,7 @@ h4{
 .formationContainer h4{
   margin-bottom: revert;
 }
-.formation{
+.formation, .formation-mobile{
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -280,7 +282,7 @@ h4{
 .formation h5{
   margin-bottom: 1em;
 }
- .course-title {
+ .course-title,.course-title-mobile {
  
   font-family: 'Montserrat', sans-serif;
   font-size: initial;
@@ -297,7 +299,7 @@ h4{
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
  }
- .school{
+ .school,.school-mobile{
   font-family: 'Montserrat', sans-serif;
 
   font-weight: lighter;
@@ -314,7 +316,7 @@ h4{
     "experience experience ."; 
 }
 
-.experience{
+.experience, .experience-mobile{
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter; 
   grid-area: experience;
@@ -322,7 +324,7 @@ h4{
   align-items: baseline;
 }
 
-.onglet-experience{
+.onglet-experience,.onglet-experience-mobile{
 
   display: flex;
  
@@ -330,7 +332,7 @@ h4{
   gap: 3em;
 }
 
-.onglet-experience .ongletprojet{
+.onglet-experience .ongletprojet, .ongletprojet-mobile{
   font-weight: bold;
   padding: 1em;
   width: max-content;
@@ -365,6 +367,7 @@ display: none;
   text-align: center;
   align-items: flex-start;
   margin-left: 15px;
+  margin-bottom: 2em;
 
 }
 
@@ -776,6 +779,26 @@ width: 17px;
 }
 
 }
+
+.mobile-button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.computer-button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
 
 
 
