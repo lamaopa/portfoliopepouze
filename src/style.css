@@ -367,6 +367,22 @@ h4{
 
 
 
+.close-button {
+  padding: 5px 10px; 
+  width: 1em;
+  position: absolute;
+  top: 78em;
+  right: 16em;
+}
+
+.formationExpContainer {
+position: relative;
+}
+
+#en-savoir-plus-button {
+float: right; 
+}
+
 
 
 

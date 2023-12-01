@@ -140,6 +140,9 @@
                             <img src="./asset/image/VScode.jpg" class="logosoftware">
                         </div>
                         <button id="en-savoir-plus-button" class="computer-button">En savoir plus</button>
+                         <div id="close-section" class="computer-button close-button" style="display: none">&#10006;</div>
+                                                  
+
                     </div>
                     <div class="formationExpContainer">
                         <h4>Formation</h4>
@@ -175,24 +178,26 @@
                 let formationExpContainer = document.querySelector(".formationExpContainer");
                 let experienceSection = document.getElementById("experience-section");
                 let enSavoirPlusButton = document.getElementById("en-savoir-plus-button");
-    
-               
+                let closeSectionButton = document.getElementById("close-section");
+        
                 formationExpContainer.style.display = "none";
                 experienceSection.style.display = "none";
-    
-             
+        
                 enSavoirPlusButton.addEventListener("click", function () {
-                    if (formationExpContainer.style.display === "none") {
-                        formationExpContainer.style.display = "block";
-                        experienceSection.style.display = "block";
-                    } else {
-                        formationExpContainer.style.display = "none";
-                        experienceSection.style.display = "none";
-                    }
+                    enSavoirPlusButton.style.display = "none";
+                    closeSectionButton.style.display = "block";
+                    formationExpContainer.style.display = "block";
+                    experienceSection.style.display = "block";
+                });
+        
+                closeSectionButton.addEventListener("click", function () {
+                    closeSectionButton.style.display = "none";
+                    enSavoirPlusButton.style.display = "block";
+                    formationExpContainer.style.display = "none";
+                    experienceSection.style.display = "none";
                 });
             });
         </script>
-                
         
             
          
