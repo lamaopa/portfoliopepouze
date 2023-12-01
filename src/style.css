@@ -371,9 +371,11 @@ h4{
   padding: 5px 10px; 
   width: 1em;
   position: absolute;
-  top: 102em;
+  top: 180vh; /* Ajustez cette valeur selon vos besoins */
   right: 16em;
+  cursor: pointer; /* Ajoutez ceci pour indiquer que c'est cliquable */
 }
+
 
 .formationExpContainer {
 position: relative;
