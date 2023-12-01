@@ -157,6 +157,7 @@ h4{
   font-family: 'Jost', sans-serif;
   font-size: 34px;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .description{
@@ -180,6 +181,7 @@ h4{
 .photoComputer{
   height: auto;
   width: 13em;
+  margin-right: 2em;
  
  
   
@@ -248,52 +250,75 @@ h4{
 
   border-bottom-style: dotted;
   border-width: 2px;
+  
 
 }
 
 .logicielCOntinerComputer2{
   margin-top: 1em;
+  margin-bottom: 2em;
 }
 
-.formationExpContainer{
+.formationExpContainer, .formationExpContainer-mobile{
   grid-area: formation;
  display: flex;
  align-items: baseline;
 
+
+ 
+
 }
+.formationExpContainer-mobile{
+  padding-left: 2em;
+}
+
 
 .formationContainer h4{
   margin-bottom: revert;
 }
-.formation{
+.formation, .formation-mobile{
   display: flex;
   flex-direction: column;
   justify-content: end;
-  margin-left: 9em;
+
   border-bottom-style: dotted;
   border-width: 2px;
 
-
 }
+
+
+
 
 .formation h5{
   margin-bottom: 1em;
 }
- .course-title {
+ .course-title,.course-title-mobile {
  
   font-family: 'Montserrat', sans-serif;
   font-size: initial;
   display: block;
   margin-bottom: -2%;
  }
+
+ @media screen and (max-width: 790px) {
+  .course-title{
+    font-size: 1em;
+  }
+ }
  .intitule{
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
  }
- .school{
+ .school,.school-mobile{
   font-family: 'Montserrat', sans-serif;
 
   font-weight: lighter;
+ }
+
+ .school-mobile{
+  display: block;
+  margin-bottom: 2em;
+  
  }
 .rightComputer{
   display: grid; 
@@ -307,7 +332,7 @@ h4{
     "experience experience ."; 
 }
 
-.experience{
+.experience, .experience-mobile{
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter; 
   grid-area: experience;
@@ -315,15 +340,16 @@ h4{
   align-items: baseline;
 }
 
-.onglet-experience{
+
+.onglet-experience,.onglet-experience-mobile{
 
   display: flex;
  
-  margin-left: 8em;
+ 
   gap: 3em;
 }
 
-.onglet-experience .ongletprojet{
+.onglet-experience .ongletprojet, .ongletprojet-mobile{
   font-weight: bold;
   padding: 1em;
   width: max-content;
@@ -333,10 +359,29 @@ h4{
   justify-content: center;
 
 }
+.ongletprojet-mobile{
+  border: 1px solid black;
+  border-radius: 20px;
+}
 
 
 
 
+.close-button {
+  padding: 5px 10px; 
+  width: 1em;
+  position: absolute;
+  top: 78em;
+  right: 16em;
+}
+
+.formationExpContainer {
+position: relative;
+}
+
+#en-savoir-plus-button {
+float: right; 
+}
 
 
 
@@ -358,6 +403,7 @@ display: none;
   text-align: center;
   align-items: flex-start;
   margin-left: 15px;
+  margin-bottom: 2em;
 
 }
 
@@ -472,12 +518,16 @@ display: none
 
 .section2 {
   background-color: black;
-  height: 70vh;
+  height: 100vh;
   margin-top: 40px;
   width: 100%;
 }
 
-
+@media screen and (max-width: 930px) {
+  .section2{
+    height: 75vh;
+  }
+}
 
 .projectcontainer {
   width: 100%;
@@ -488,6 +538,7 @@ display: none
   justify-content: center;
   display: flex;
   gap: 56px;
+
    
    
   
@@ -634,7 +685,7 @@ width: 17px;
   display: none;
 }
   .sectionmobile{
-  height: 63vh;
+  
   margin-left: 0;
 
     width: auto;
@@ -770,11 +821,85 @@ width: 17px;
 
 }
 
+.mobile-button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.computer-button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
 
 
 
+.contactContainer {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 33vh;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+ 
+}
 
 
+
+.letter {
+  height: 8em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.contact p {
+  font-size: 100%;
+  text-align: -webkit-left;
+  font-weight: 390;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact h4 {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 530px) {
+  
+  .contact{
+    gap: 1em;
+  }
+  
+  .contactContainer{
+    flex-direction: column;
+  }
+  .letter {
+    height: 6em;
+  }
+
+  .contact h4 {
+    font-size: larger;
+  }
+  .contact p {
+    font-size: 80%;
+  }
+}
 
 
 
