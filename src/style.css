@@ -502,12 +502,16 @@ display: none
 
 .section2 {
   background-color: black;
-  height: 70vh;
+  height: 100vh;
   margin-top: 40px;
   width: 100%;
 }
 
-
+@media screen and (max-width: 930px) {
+  .section2{
+    height: 75vh;
+  }
+}
 
 .projectcontainer {
   width: 100%;
@@ -518,6 +522,7 @@ display: none
   justify-content: center;
   display: flex;
   gap: 56px;
+
    
    
   
@@ -821,10 +826,64 @@ width: 17px;
 
 
 
+.contactContainer {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 33vh;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+ 
+}
 
 
 
+.letter {
+  height: 8em;
+}
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.contact p {
+  font-size: 100%;
+  text-align: -webkit-left;
+  font-weight: 390;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact h4 {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 530px) {
+  
+  .contact{
+    gap: 1em;
+  }
+  
+  .contactContainer{
+    flex-direction: column;
+  }
+  .letter {
+    height: 6em;
+  }
+
+  .contact h4 {
+    font-size: larger;
+  }
+  .contact p {
+    font-size: 80%;
+  }
+}
 
 
 
